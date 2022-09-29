@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "Arial";
+}
+
+.wd-border-color {
+    color: rgb(47, 51, 54);
+}
+
+.wd-margin-left {
+    margin-left: 16px;
+}
+
+.wd-border-radius {
+    border-radius: 30px;
+    border: none;
+}
+
+.wd-color-white {
+    color: white;
+}
+
+.wd-bg-color-darkgrey {
+    background-color: darkgray;
+}
+
+.wd-nav-tabs {
+    color: rgb(110, 118, 125);
+    padding: 0px;
+}
+
+.wd-nav-tabs li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.wd-nav-tabs .wd-selected {
+    color: rgb(29,161,242);
+    border-bottom: solid 4px rgb(29,161,242);
+}
