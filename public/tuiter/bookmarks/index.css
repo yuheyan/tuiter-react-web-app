@@ -1,0 +1,143 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.wd-color-white {
+    color: white;
+}
+
+.wd-color-red {
+    color: red;
+}
+
+.wd-color-110-118-125 {
+    color: rgb(110, 118, 125);
+}
+
+.wd-border-left {
+    border-left-color: rgb(47, 51, 54);
+    border-left-style: solid;
+    border-left-width: 1px;
+}
+
+.wd-border-right {
+    border-right-color: rgb(47, 51, 54);
+    border-right-style: solid;
+    border-right-width: 1px;
+}
+
+.wd-border-top {
+    border-top-color: rgb(47, 51, 54);
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+.wd-border-bottom {
+    border-bottom-color: rgb(47, 51, 54);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.wd-margin-left-16 {
+    margin-left: 16px;
+}
+
+.wd-margin-right-16 {
+    margin-right: 16px;
+}
+
+.wd-margin-top-12 {
+    margin-top: 12px;
+}
+
+.wd-margin-bottom-12 {
+    margin-right: 12px;
+}
+
+.wd-padding-left-16 {
+    padding-left: 16px;
+}
+
+.wd-padding-left-12 {
+    padding-left: 12px;
+}
+
+.wd-padding-right-16 {
+    padding-right: 16px;
+}
+
+.wd-padding-right-12 {
+    padding-right: 12px;
+}
+
+.wd-padding-top-12 {
+    padding-top: 12px;
+}
+
+.wd-padding-bottom-12 {
+    padding-bottom: 12px;
+}
+
+.wd-padding-bottom-5 {
+    padding-bottom: 5px;
+}
+
+.wd-padding-bottom-3 {
+    padding-bottom: 3px;
+}
+
+.wd-font-size-20 {
+    font-size: 20px;
+}
+
+.wd-font-size-15 {
+    font-size: 15px;
+}
+
+.wd-font-size-13 {
+    font-size: 13px;
+}
+
+.wd-font-bold {
+    font-weight: bold;
+}
+
+.wd-container {
+    display: flex;
+}
+
+.wd-max-width {
+    max-width: 506px;
+}
+
+.wd-width {
+    width: 504px;
+}
+
+.wd-incline-block {
+    display: inline-block;
+    width: 24%;
+}
+
+.wd-header {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.wd-image {
+    height: 264px;
+    width: 504px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.wd-border-radius {
+    border-radius: 20px;
+}
