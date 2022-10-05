@@ -19,3 +19,7 @@
 .wd-no-wrap {
     white-space: nowrap;
 }
+
+.wd-tweet-button {
+    min-width: 75px;
+}
