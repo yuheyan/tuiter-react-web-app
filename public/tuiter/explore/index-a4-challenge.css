@@ -1,0 +1,46 @@
+.wd-font-size-9 {
+    font-size: 9px;
+}
+
+.wd-font-size-15 {
+    font-size: 15px;
+}
+
+.wd-font-size-20 {
+    font-size: 20px;
+}
+
+.wd-font-size-25 {
+    font-size: 25px;
+}
+
+.wd-search-twitter {
+    left: 42px;
+    top: 11px;
+}
+
+.wd-coldplay-text1 {
+    left: 10px;
+    bottom: 10px;
+}
+
+.wd-coldplay-text2 {
+    left: 10px;
+    bottom: 90px;
+}
+
+.wd-tweet-button {
+    min-width: 75px;
+}
+
+.wd-bg-color-30-30-30 {
+    background-color: rgb(30, 30, 30);
+}
+
+.wd-bg-color-40-40-40 {
+    background-color: rgb(40, 40, 40);
+}
+
+.wd-border-radius-20 {
+    border-radius: 20px;
+}
