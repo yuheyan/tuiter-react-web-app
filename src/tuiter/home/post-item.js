@@ -21,7 +21,7 @@ const PostItem = (
         <div className="list-group-item">
             <div className="row">
                 <div className="col-1">
-                    <img src={`/images/${post.avatarIcon}`} className="rounded-circle" style={{height:'50px',width:'50px'}}/>
+                    <img alt={""} src={`/images/${post.avatarIcon}`} className="rounded-circle" style={{height:'50px',width:'50px'}}/>
                 </div>
                 <div className="col-11 ps-4">
                     <div className="row">
@@ -57,7 +57,7 @@ const PostItem = (
                 <div className="col-11 ps-4">
                     <div className="border border-1" style={{borderRadius:'19px'}}>
                         <div>
-                            <img src={`/images/${post.cardImage}`}
+                            <img alt={""} src={`/images/${post.cardImage}`}
                                  className={`w-100 ${post.title===null?'':'border-bottom'} border-1`}
                                  style={{borderRadius: `${post.title===null?'18px 18px 18px 18px':'18px 18px 0px 0px'}`}}/>
                         </div>
