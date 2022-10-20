@@ -1,17 +1,23 @@
 import React from "react";
+import {useLocation} from "react-router";
+import {Link} from "react-router-dom";
 
-const NavigationSidebar = ({active = 'explore'}) => {
+const NavigationSidebar = () => {
+    const {pathname} = useLocation();
+    const paths = pathname.split('/')
+    const active = paths[2];
     return (
         <div className="list-group">
             <a href={"#/"} className="list-group-item">Tuiter</a>
-            <a href={"#/"} className={`list-group-item
-                    ${active === 'home'?'active':''}`}>
+            <Link to="/tuiter/home" className={`list-group-item ${active === 'home'?'active':''}`}>
                 Home
-            </a>
-            <a href={"#/"} className={`list-group-item
-                    ${active === 'explore'?'active':''}`}>
+            </Link>
+            <Link to="/tuiter/explore" className={`list-group-item ${active === 'explore'?'active':''}`}>
                 Explore
-            </a>
+            </Link>
+            <Link to="/" className="list-group-item">
+                Labs
+            </Link>
             <a href={"#/"} className={`list-group-item
                     ${active === 'notifications'?'active':''}`}>
                 Notifications
