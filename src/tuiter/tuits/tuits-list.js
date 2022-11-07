@@ -2,7 +2,7 @@ import React from "react";
 import {useSelector} from "react-redux";
 import TuitItem from "./tuit-item.js";
 
-const TuitList = () => {
+const TuitsList = () => {
     const tuitsArray = useSelector(
         (state) => state.tuits);
     return(
@@ -13,4 +13,4 @@ const TuitList = () => {
         </div>
     );
 };
-export default TuitList;
+export default TuitsList;
