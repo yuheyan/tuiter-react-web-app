@@ -13,7 +13,7 @@ const EditProfileComponent = () => {
             [event.target.name]: event.target.value
         })
     };
-    const onSave = (payload) => {
+    const onSave = () => {
         var name = document.getElementById("name").value;
         var bio = document.getElementById("bio").value;
         var location = document.getElementById("location").value;
@@ -34,7 +34,7 @@ const EditProfileComponent = () => {
                 <div className="col-2">
                     <Link to="../profile">
                         <button className="rounded-pill float-end btn btn-dark fw-bold"
-                        onClick={() => {onSave(profile);}}>Save</button>
+                        onClick={() => {onSave();}}>Save</button>
                     </Link>
                 </div>
             </div>
