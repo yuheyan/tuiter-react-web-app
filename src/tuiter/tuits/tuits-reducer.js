@@ -65,17 +65,17 @@ const tuitsSlice = createSlice({
             }
     },
     reducers: {
-        likeToggle(state, action) {
-            const tuit = state.find((tuit) =>
-                tuit._id === action.payload._id)
-            if (tuit.liked === true) {
-                tuit.liked = false;
-                tuit.likes--;
-            } else {
-                tuit.liked = true;
-                tuit.likes++;
-            }
-        },
+        // likeToggle(state, action) {
+        //     const tuit = state.find((tuit) =>
+        //         tuit._id === action.payload._id)
+        //     // if (tuit.liked === true) {
+        //     //     tuit.liked = false;
+        //     //     tuit.likes--;
+        //     // } else {
+        //     //     tuit.liked = true;
+        //     //     tuit.likes++;
+        //     // }
+        // },
         createTuit(state, action) {
             state.unshift({
                 ...action.payload,
@@ -93,4 +93,4 @@ const tuitsSlice = createSlice({
 });
 
 export default tuitsSlice.reducer;
-export const {createTuit, deleteTuit, likeToggle} = tuitsSlice.actions
+// export const {createTuit, deleteTuit, likeToggle} = tuitsSlice.actions
