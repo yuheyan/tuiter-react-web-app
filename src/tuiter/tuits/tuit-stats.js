@@ -1,6 +1,6 @@
 import React from "react";
 import 'font-awesome/css/font-awesome.min.css';
-import { faHeart as faHeartR} from "@fortawesome/free-regular-svg-icons";
+// import { faHeart as faHeartR} from "@fortawesome/free-regular-svg-icons";
 import { faComment } from "@fortawesome/free-regular-svg-icons";
 import { faShareSquare } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
