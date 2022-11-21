@@ -5,7 +5,7 @@ import PostSummaryItem
     from "./post-summary-item";
 import {findTuitsThunk}
     from "../../services/tuits-thunks";
-import TuitItem from "../tuits/tuit-item";
+// import TuitItem from "../tuits/tuit-item";
 
 const PostSummaryList = () => {
     const {tuits, loading} = useSelector(
