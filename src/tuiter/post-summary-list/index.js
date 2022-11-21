@@ -12,8 +12,7 @@ const PostSummaryList = () => {
         state => state.tuitsData)
     const dispatch = useDispatch();
     useEffect(() => {
-        dispatch(findTuitsThunk())
-    }, [])
+        dispatch(findTuitsThunk())})
     return(
         <ul className="list-group">
             {
