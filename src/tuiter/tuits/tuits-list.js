@@ -9,7 +9,7 @@ const TuitsList = () => {
     const {tuits, loading} = useSelector(
         state => state.tuitsData)
     const dispatch = useDispatch();
-    useEffect(() => {
+    useEffect(() => { //eslint-disable-line react-hooks/exhaustive-deps
         dispatch(findTuitsThunk())
     }, [])
     return(
